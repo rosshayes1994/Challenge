@@ -1,0 +1,7 @@
+message.form:
+ path: '/message/myform'
+ defaults:
+   _title: 'Message form'
+   _form: '\Drupal\message\Form\MessageForm'
+ requirements:
+   _permission: 'access content'
